@@ -46,8 +46,12 @@
 }
 
 @media (max-width: 768px) {
+  .searchPage__header .header__input a {
+    margin: auto;
+  }
   .searchPage__header .header__input img {
     /* width: 1; */
+    display: block;
     margin: 10px auto 0px auto;
     align-items: center;
   }
