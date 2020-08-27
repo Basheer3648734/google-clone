@@ -13,7 +13,7 @@ import SearchPageCard from "../searchPageCard/SearchPageCard";
 function SearchPage() {
   const [{ term }, dispatch] = useContextState();
   const [selectedOption, setSelectedOption] = useState("all");
-  //   const { data } = useGoogle(term);
+  const { data } = useGoogle(term);
   console.log(data);
   const headerOptions = [
     {
