@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./SearchPage.module.css";
 import { useContextState } from "../../stateProvider";
+import { Link } from "react-router-dom";
 import useGoogle from "../../useGoogle";
 import SearchBar from "../SearchBar/SearchBar";
 import Options from "../Options/Options.js";
@@ -51,7 +52,9 @@ function SearchPage() {
     <div className={styles.searchPage}>
       <div className={styles.searchPage__header}>
         <div className={styles.header__input}>
-          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+          <Link to="/">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+          </Link>
           <SearchBar hideButtons margin="0px" />
         </div>
         <div className={styles.header__options}>
