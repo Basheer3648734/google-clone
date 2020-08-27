@@ -1,0 +1,25 @@
+.options {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  color: #5f6368;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+  padding: 0 5px;
+}
+.options svg {
+  font-size: 1.2rem;
+  margin-right: 2px;
+}
+.options p {
+  font-size: 0.88rem;
+}
+.active {
+  color: #1a73e8;
+  border-bottom-color: #1a73e8;
+}
+@media (max-width: 992px) {
+  .options {
+    margin: 0px 5px;
+  }
+}

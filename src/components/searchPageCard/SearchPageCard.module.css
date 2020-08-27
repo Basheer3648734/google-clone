@@ -1,0 +1,33 @@
+.searchPageCard {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  max-width: 600px;
+}
+.searchPageCard__displayUrl {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.searchPageCard__url {
+  font-size: 1.4rem;
+  color: #1a0dab;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.searchPageCard__url:hover {
+  text-decoration: underline;
+}
+.searchPageCard__snippet {
+  margin: 0px;
+  padding: 0px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 0.8;
+  line-height: 1.4;
+  font-weight: 400;
+}
+.searchPageCard__url:visited {
+  color: purple;
+}
+/* @media (max-width: 99px) {
+  width: 1;
+} */
